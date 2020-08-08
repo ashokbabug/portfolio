@@ -1,0 +1,94 @@
+.myrows {
+  border: 5px solid green;
+  padding: 5px;
+}
+.mycols {
+  border: 2px solid red;
+  padding: 5px;
+}
+.mycontainer {
+  background-color: rgb(230, 106, 168);
+  border: 5px solid rgb(34, 165, 209);
+}
+#topheader {
+  background-color: ghostwhite;
+  border-bottom: 1px solid silver;
+  /*padding:8px;*/
+}
+#topheader a {
+  color: #2f3542;
+  font-weight: 700;
+  font-size: 0.89rem;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+nav ul li a {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+/*start of footer*/
+.fullfooter {
+  background-color: #02386e;
+
+  bottom: 0;
+}
+.topfooter a {
+  color: white;
+}
+.topfooter h3 {
+  color: white;
+}
+.top-hero-section {
+  background-color: #055488;
+  color: white;
+}
+
+.top-hero-section a {
+  color: white;
+}
+.imgclass {
+  width: 100px;
+}
+.requirement-section {
+  background-color: #004d80;
+  color: white;
+}
+.imgclass1 {
+  width: 350px;
+}
+.home-newselector {
+  background-color: rgb(10, 2, 65);
+  color: white;
+}
+.home-newselector .form-control {
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+}
+.home-newselector .btn {
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background-color: #fd0410;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.reduce-padding {
+  padding: 0;
+  margin: 0;
+}
+.form-group {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-dark {
+  background-color: #4f868c !important;
+}
