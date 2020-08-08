@@ -26,7 +26,7 @@ SECRET_KEY = "%ckb!1i1m)lyl#ia4$q38r)b8a*d62=g=u5n59fz%^h1c2885!"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ashokbabug.herokuapp.com']
 
 
 # Application definition
@@ -127,6 +127,7 @@ STATIC_URL = "/static/"
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
+STATIC_ROOT = [BASE_DIR, 'staticfiles']
 
 django_heroku.settings(locals())
 
@@ -137,4 +138,4 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_HOST_USER = "ashokbabug999@gmail.com"
 EMAIL_HOST_PASSWORD = "lomfwupnjnomvuwe"
 EMAIL_PORT = 587
-EMAIL_SUBJECT_PREFIX = "[Django] "
+
